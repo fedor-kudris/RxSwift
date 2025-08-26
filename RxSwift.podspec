@@ -33,6 +33,7 @@ gitDiff().grep("bug").less          // sequences of swift objects
   s.tvos.deployment_target = '9.0'
 
   s.source_files          = 'RxSwift/**/*.swift', 'Platform/**/*.swift'
+  s.resources             = 'RxSwift/**/*.xcprivacy'
   s.exclude_files         = 'RxSwift/Platform/**/*.swift'
 
   s.swift_version = '5.0'
